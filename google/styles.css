@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    margin: 200px auto 0 auto;
+    width: 400px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border: 1px solid lightgrey;
+    margin: 36px auto;
+    border-radius: 30px;
+}
+
+.mic_icon {
+    height: 24px;
+    width: 24px;
+    margin: 18px;
+}
+
+.search_icon {
+    margin: 18px;
+}
+
+.search_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.search_buttons button {
+    border: none;
+    padding: 10px 18px;
+    font-size: 18px;
+    color: rgb(73, 72, 72);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.search_bar input {
+    flex-grow: 1;
+    border: none;
+    font-size: 16px;
+    cursor: text;
+}
+
+.search_bar input:focus {
+    outline: none;
+}
+
+.search_bar:hover {
+    box-shadow: 5px 5px 5px darkgrey;
+}
